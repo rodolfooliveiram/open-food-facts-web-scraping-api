@@ -1,0 +1,20 @@
+{
+  "name": "open-food-facts-web-scraping-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "run dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pupeteer": "^0.0.1",
+    "puppeteer": "^22.2.0"
+  }
+}
