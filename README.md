@@ -4,12 +4,12 @@ Esse propjeto é uma API que realiza web scraping no site Open Food Facts, desen
 
 ## Índice
 
-- [Funcionalidades](##funcionalidades)
-- [Desafios e Aprendizados](##desafios-e-aprendizados)
-- [Stack](##stack)
-- [Rodando localmente](##rodando-localmente)
-- [Documentação da API](##documentacao-da-api)
-- [Desenvolvedor](##desenvolvedor)
+- [Funcionalidades](#⚙-funcionalidades)
+- [Desafios e Aprendizados](#🚀-desafios-e-aprendizados)
+- [Stack](#🛠-stack)
+- [Rodando localmente](#💻-rodando-localmente)
+- [Documentação da API](#📄-documentação-da-api)
+- [Desenvolvedor](#👨‍🚀-desenvolvedor)
 
 ## ⚙ Funcionalidades
 
