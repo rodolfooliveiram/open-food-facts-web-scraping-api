@@ -10,7 +10,7 @@ async function accessWebsite(productId) {
     console.log('Buscando dados do produto...');
     await page.goto(`https://br.openfoodfacts.org/produto/${productId}`);
   } else {
-    await page.goto('https://br.openfoodfacts.org/');
+    await page.goto('https://br.openfoodfacts.org/117');
   }
 
   return { browser, page };

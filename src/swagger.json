@@ -1,0 +1,67 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "API que realiza web scraping no site Open Food Facts",
+    "description": "API permite a busca de produtos no site Open Food Facts",
+    "contact": {
+      "email": "rodolfoalvesmdo@gmail.com"
+    },
+    "version": "1.0.0"
+  },
+  "tags": [
+    {
+      "name": "Products",
+      "description": "Operações para buscar dados de produtos"
+    }
+  ],
+  "paths": {
+    "/v1/products": {
+      "get": {
+        "summary": "Busca de produtos",
+        "description": "Rota responsável por buscar dados dos produtos existentes no site Open Food Facts",
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "nutrition",
+            "in": "query",
+            "description": "Letra que representa a classificação Nutri-Score do produto. Essa classificação avalia a qualidade nutricional dos produtos, atribuindo notas de A (melhor) a E (pior). Produtos com Nutri-Score A são classificados como os mais saudáveis."
+          },
+          {
+            "name": "nova",
+            "in": "query",
+            "description": "Número que representa a classificação NOVA do produto. O NOVA é um sistema de classificação de alimentos, que categoriza produtos alimentícios em quatro grupos com base no grau de processamento ao qual são submetidos. 1: alimentos não processados ou minimamente processados; 2: ingredientes culinários processados; 3: alimentos processados que contêm ingredientes adicionados; e 4: alimentos ultra processados"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/v1/products/{id}": {
+      "get": {
+        "summary": "Busca de produto pelo ID",
+        "description": "Rota responsável por buscar dados do produto através do ID disponível no site Open Food Facts",
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Sequência de números que representa o ID do produto disponível no site Open Food Facts.",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}
