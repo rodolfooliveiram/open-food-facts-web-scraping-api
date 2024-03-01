@@ -4,20 +4,20 @@ Esse propjeto é uma API que realiza web scraping no site Open Food Facts, desen
 
 ## Índice
 
-- [Funcionalidades](#⚙-funcionalidades)
-- [Desafios e Aprendizados](#🚀-desafios-e-aprendizados)
-- [Stack](#🛠-stack)
-- [Rodando localmente](#💻-rodando-localmente)
-- [Documentação da API](#📄-documentação-da-api)
-- [Desenvolvedor](#👨‍🚀-desenvolvedor)
+- [Funcionalidades](#funcionalidades)
+- [Desafios e Aprendizados](#desafios-e-aprendizados)
+- [Stack](#stack)
+- [Rodando localmente](#rodando-localmente)
+- [Documentação da API](#documentação-da-api)
+- [Desenvolvedor](#desenvolvedor)
 
-## ⚙ Funcionalidades
+## Funcionalidades
 
 - Busca de todos os produtos
 - Busca de produtos com filtro utilizando a classificação Nutri-Score e NOVA
 - Busca de detalhes do produto através do código de barras (id)
 
-## 🚀 Desafios e Aprendizados
+## Desafios e Aprendizados
 
 ### Planejamento
 
@@ -75,11 +75,11 @@ Uma vez que a funcionalidade estava "funcionando", havendo tempo disponível, eu
 - Como a divisão da etapa de desenvolvimento do projeto em tarefas menores ("sprints") ajuda na evoluir o projeto de forma mais organizada e objetiva;
 - Ter clareza sobre os requisitos do projeto e priorizar o que é mais importante.
 
-## 🛠 Stack
+## Stack
 
 **Back-end:** Node.js, Express, Puppeteer e Swagger
 
-## 💻 Rodando localmente
+## Rodando localmente
 
 #### Pré-requisitos
 
@@ -109,7 +109,7 @@ Inicie o servidor
   npm start
 ```
 
-## 📄 Documentação da API
+## Documentação da API
 
 #### Retorna dados de produtos
 
@@ -140,7 +140,7 @@ Também é possível consultar a API e testar o seu funcionamento através da do
   GET /v1/api/
 ```
 
-## 👨‍🚀 Desenvolvedor
+## Desenvolvedor
 
 <a href="https://www.linkedin.com/in/rodolfooliveiram">
   <img width="150em" src="https://img.shields.io/badge/Rodolfo Oliveira-0a66c2?style=flat&logo=linkedin&logoColor=white&labelColor=0a66c2" />
